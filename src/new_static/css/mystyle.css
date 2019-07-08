@@ -1,0 +1,344 @@
+slick-nextbody{
+    background-color: #ddd
+}
+
+._2HgS2f-U {
+    width: 75px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.product__size-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product__size-list li.centered {
+    width: 95px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+    box-shadow: 0 #fff;
+}
+
+.product__size {
+    margin-bottom: 30px;
+}
+
+.product__size-list li {
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    display: block;
+    height: 33px;
+    margin: 2px 2px 2px 2px;
+    padding-right: 3px ;
+    width: 76px;
+    padding: 8px 2px;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+
+.btn-vm {
+    background-color: #09f;
+    border-color: #fff;
+    /*color: #fff;*/
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.instruction {
+    color: #0086EC;
+}
+.instruction:hover{
+    color: #0099FF;
+}
+.product__add-to-basket:hover {
+    color: #fff;
+}
+
+.product__info-model {
+    display: block;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.wrap {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.product__carousel-related {
+    min-height: 260px;
+    font-size: 13px;
+}
+
+.product__carousel-related-content {
+    position: relative;
+    height: 295px;
+}
+.product {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+
+.product__carousel-related .owl-wrapper-outer {
+    top: 1px;
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.product__carousel-related-content .owl-item:first-child {
+    margin-left: 0;
+}
+.product__carousel-related-content .owl-item {
+    text-align: center;
+    margin: 20px 0;
+    max-width: 200px;
+}
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.product__carousel-related-content .owl-item a {
+    display: block;
+}
+a {
+    color: #09f;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.product__carousel-related-content .owl-item .item-image {
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    margin: 0 5px 0 8px;
+    overflow: hidden;
+}
+.product__carousel-related-content .owl-item span {
+    color: #666;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.product__carousel-related-content .owl-item .item-image img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.product-related__title{
+    font-size:32px;
+    margin-bottom:10px;
+    padding-top:10px;
+    font-family:Roboto,sans-serif;
+    font-weight:700;
+    text-align: center
+}
+
+.product__carousel-related-content .owl-item {
+    text-align: center;
+    margin: 5px 0;
+    max-width: 200px;
+}
+
+._2HgS2f-U {
+    width: 75px;
+    max-height: 500px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+.product__image-preview #swiper-thumbnails .swiper-slide a img {
+    width: 100%;
+}
+.login-form-div{
+    font-size: 32px;
+    text-align: center;
+}
+.button-or-signup{
+    text-align: left
+}
+.login-form-title{
+    margin:25px 0;
+}
+.ant-input:hover {
+
+}
+
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative;
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:10px; 
+    margin:10px; 
+    background:#f1f1f1; 
+    color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px); 
+}
+.MultiCarousel .leftLst { 
+    left:0;
+}
+.MultiCarousel .rightLst { 
+    right:0; 
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none; 
+    background:#ccc; 
+}
+
+.slick-slide {
+    display: block
+}
+
+.pull-left {
+    float: left!important;
+}
+.pull-right {
+    float: right!important;
+}
+
+.main-wish-list{
+    padding-top: 20px;
+}
+
+.actions{
+    float: right;
+    display: inline-block;
+}
+
+.actions ul {
+    list-style: none;
+    list-style-type: none
+}
+.actions li {
+    float: right;
+    padding-right: 5px;
+}
+
+.order-item-title{
+    font-size: 16px;
+    color: #0099FF;
+    padding-left: 10px;
+}
+
+.order-item-title:hover{
+    color: #0059BF;
+}
+
+.order-item {
+    border-top: 1px dashed #aaa;
+    padding: 15px 0;
+    /*margin: 15px 0;*/
+    position: relative;
+    zoom: 1;
+    min-height: 210px;
+}
+
+.my-form-control {
+    height: 34px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+
+.count {
+    display: inline-block; 
+    margin: 0 4px;
+    text-align: center;
+    width: 40%;
+}
+
+.form-group {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.cart .holder .leftpad .list-item .count {
+    display: inline-block;
+    margin: 0 4px;
+    text-align: center;
+    width: 40%;
+}
+
+._3vlrqd4K{
+    width: 100%;
+}
